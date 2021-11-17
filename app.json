@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/hospital/hospital",
+    "pages/myHome/myHome"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "东晓医生",
+    "navigationBarTextStyle": "black",
+		"enablePullDownRefresh":false
+  },
+  "tabBar": {
+    "color": "#636364",
+    "selectedColor": "#f15169",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "健康社区",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/home_active.png"
+      },
+      {
+        "pagePath": "pages/hospital/hospital",
+        "text": "医馆在线",
+        "iconPath": "/images/hospital.png",
+        "selectedIconPath": "/images/hospital_active.png"
+      },
+      {
+        "pagePath": "pages/myHome/myHome",
+        "text": "我的",
+        "iconPath": "/images/myHome.png",
+        "selectedIconPath": "/images/myHome_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

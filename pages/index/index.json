@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+		"i-notice-bar": "../../dist/notice-bar/index",
+		"i-tabs": "../../dist/tabs/index",
+		"i-tab": "../../dist/tab/index",
+		"i-button": "../../dist/button/index"
+	},
+	"navigationBarBackgroundColor": "#f15169",
+	"navigationBarTextStyle": "white"
+}
