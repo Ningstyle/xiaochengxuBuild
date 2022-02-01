@@ -1,6 +1,6 @@
 ## 微信小程序+iview weapp项目底层封装（api,function,utils），开箱即用
 ## 小程序封装，小程序底层
-#####东晓医生小程序前端文件及配置说明
+#####小程序前端文件及配置说明
 #### 1、文件目录
 ##### 文件目录包含api、css、dist、images、pages、scripts、utils
 - api文件下fetch.js为小程序请求封装文件  
