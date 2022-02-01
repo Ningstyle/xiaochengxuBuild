@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## 微信小程序+iview weapp项目底层封装（api,function,utils），开箱即用
+## 小程序封装，小程序底层
+#####东晓医生小程序前端文件及配置说明
+#### 1、文件目录
+##### 文件目录包含api、css、dist、images、pages、scripts、utils
+- api文件下fetch.js为小程序请求封装文件  
+- api文件下api.js为后台接口封装文件  
+- css文件下为小程序全局默认样式文件  
+- dist文件下为iview weapp的组件文件  
+- images文件下为项目图片资源存放文件  
+- pages文件下为小程序主要页面及脚本文件存放目录  
+- scripts文件为项目本地公用数据及方法存放目录  
+- utils文件下为项目使用到的公用方法存放目录  
 
-You can use the [editor on GitHub](https://github.com/Ningstyle/xiaochengxuBuild/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+#### 2、配置文件 
+- configData.js文件是项目本地数据配置文件  
+- weMethod.js文件是项目小程序常用方法配置封装文件  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ningstyle/xiaochengxuBuild/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+#### 3、项目说明
+##### 项目开发过程中建议使用HbuiderX作为开发工具，实时预览微信开发工具，所有开发人员不要在微信开发工具上提交上传文件（该上传目标是微信服务器），工作结束后各自上传至阿里code仓库，由指定人员构建上传微信服务
+##### 使用git开发协助工具，统一在develop分支开发，创建本地分支避免频繁冲突，由指定人员进行代码合并
+##### 项目统一使用iview weapp和weui作为公用组件
