@@ -4,7 +4,7 @@
 #### 1、文件目录
 ##### 文件目录包含api、css、dist、images、pages、scripts、utils
 - api文件下fetch.js为小程序请求封装文件  
--   api文件下api.js为后台接口封装文件  
+- api文件下api.js为后台接口封装文件  
 - css文件下为小程序全局默认样式文件  
 - dist文件下为iview weapp的组件文件  
 - images文件下为项目图片资源存放文件  
